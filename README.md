@@ -26,6 +26,7 @@ WHEN I open API GET routes in Insomnia for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
+```
 
 ## Developement
 This project is still in works. I added models and their requirements into the database. I also executed the association methods on my Sequelize models to create relationships between them. What is yet to be completed is filling out the API Routes to perform RESTful CRUD Operations, and a walkthrough video showing how to create the schema from the MYSQL shell, how to seed the database from the command line, how to start the application's server and the GET, POST, PUT, DELETE routes being tested in Insomnia. 
